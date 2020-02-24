@@ -33,8 +33,8 @@
   ADICIONE UM HTML COM O SEGUINDO ELEMENTOS
   ```
     <canvas id="canvas-id"></canvas>
-    <a>
-        <button onclick="downloadImage('nome_do_arquivo')">Download</button>
+    <a id="download" download="">
+        <button onclick="download('banner de João');">Download</button>
     </a>
   ```
 
