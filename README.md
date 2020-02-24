@@ -8,7 +8,7 @@
 ### addImage - ADICIONAR UMA IMAGEM NO CANVAS
   ESSA FUNÇÃO ADICIONARA A IMAGEM NA TELA
   
-  PARAMETROS DA FUNÇÃO
+  ###### PARAMETROS DA FUNÇÃO
   - canvas(String)
     AQUI FICARA O IDENTIFICADOR DO CANVAS, POR EXEMPLO '#myCanvas' ou '.myCanvas'
   - src(String)
