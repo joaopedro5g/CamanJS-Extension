@@ -41,7 +41,7 @@
   AGORA NO SCRIPT DO SEU HTML ADICIONE O SEGUINTE
   ```
     <script>
-        addImage('image.jpg',{
+        addImage('#canvas-id','image.jpg',{
             title:'Hello'
         },{
             contrast: 2
