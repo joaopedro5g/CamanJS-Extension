@@ -23,9 +23,9 @@
       - brightness: Adiciona uma configuração de brilho na imagem
 
 ### downloadImage
-    ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
-    ESSE FUNÇÃO TEM APENAS UM PARAMETRO
-    - imageName: Nome da imagem ao ser salva pelo usuario
+   ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
+   ESSE FUNÇÃO TEM APENAS UM PARAMETRO
+   - imageName: Nome da imagem ao ser salva pelo usuario
 
 ## EXEMPLO DE CÓDIGO
   ADICIONE UM HTML COM O SEGUINDO ELEMENTOS
