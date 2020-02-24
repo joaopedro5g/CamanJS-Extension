@@ -50,4 +50,4 @@
   ```
 
   ## ATENÇÃO
-  PARA QUE ESSA BIBLIOTECA FUNCIONE VOCÊ DEVE BAIXAR E UTILIZAR O **[GitHub Pages]**(http://camanjs.com/)
+  PARA QUE ESSA BIBLIOTECA FUNCIONE VOCÊ DEVE BAIXAR E UTILIZAR O [CamanJS](http://camanjs.com/)
