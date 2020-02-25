@@ -1,4 +1,4 @@
-function addImage(canvas,src,text,options){
+function addImage(canvas,src,options){
     Caman(canvas, src, function () {
         this.brightness(options.brightness ? options.brightness : 0).render();
         this.contrast(options.contrast ? options.contrast : 0).render();
@@ -6,10 +6,11 @@ function addImage(canvas,src,text,options){
     var c = document.querySelector('canvas');
     var ctx = c.getContext("2d");
     setTimeout(function(){
-        ctx.font = "30px Georgia";
-        ctx.fillText(text.title ? text.title : 'Add title here', 200, 150);
-        ctx.font = "20px Georgia";
-        ctx.fillText(text.subtitle ? text.subtitle : 'Add subtitle here', 210, 200);
+        console.log(options.title.fontSize);
+        ctx.font = `${options.title.fontSize ? options.title.fontSize : 20}px ${options.title.fontFamily ? options.title.fontFamily : 'Arial'}`;
+        ctx.fillText(options.title.text ? options.title.text : 'Add title here', options.title.positionX ? options.title.positionX : 200, options.title.positionY ? options.title.positionY : 200);
+        ctx.font = `${options.subtitle.fontSize ? options.subtitle.fontSize : 10}px ${options.subtitle.fontFamily ? options.subtitle.fontFamily : 'Arial'}`;
+        ctx.fillText(options.subtitle.text ? options.subtitle.text : 'Add subtitle here', options.subtitle.positionX ? options.subtitle.positionX : 200, options.subtitle.positionY ? options.subtitle.positionY : 200);
     },500);
 }
 function download(imageName) {
@@ -18,5 +19,4 @@ function download(imageName) {
         .replace("image/png", "image/octet-stream");
     download.setAttribute("href", image);
     download.setAttribute("download",imageName);
-    //download.setAttribute("download","archive.png");
 }
