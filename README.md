@@ -9,13 +9,10 @@
 
 ### addImage - ADICIONAR UMA IMAGEM NO CANVAS
   ESSA FUNÇÃO ADICIONARA A IMAGEM NA TELA
-<<<<<<< HEAD
 
   PARAMETROS DA FUNÇÃO
-=======
   
   ###### PARAMETROS DA FUNÇÃO
->>>>>>> 0536e51cafda9ab350aed3a0ee6fcf8ac3239914
   - canvas(String)
     AQUI FICARA O IDENTIFICADOR DO CANVAS, POR EXEMPLO '#myCanvas' ou '.myCanvas'
   - src(String)
@@ -40,18 +37,11 @@
         - text: Texto que seria impresso na imagem
 
 ### downloadImage
-<<<<<<< HEAD
     ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
     
     ESSE FUNÇÃO TEM APENAS UM PARAMETRO
     - imageName: Nome da imagem ao ser salva pelo usuario
-=======
-   ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
-   
-   ESSE FUNÇÃO TEM APENAS UM PARAMETRO
-   
-   - imageName: Nome da imagem ao ser salva pelo usuario
->>>>>>> 0536e51cafda9ab350aed3a0ee6fcf8ac3239914
+
 
 ## EXEMPLO DE CÓDIGO
   ADICIONE UM HTML COM O SEGUINDO ELEMENTOS
@@ -65,7 +55,6 @@
   AGORA NO SCRIPT DO SEU HTML ADICIONE O SEGUINTE
   ```
     <script>
-<<<<<<< HEAD
         addImage('#canvas','image.jpg',{
             contrast: 2,
             title: {
@@ -83,13 +72,6 @@
                 text:"PAU NELAS"
             }
         });
-=======
-        addImage('#canvas-id','image.jpg',{
-            title:'Hello'
-        },{
-            contrast: 2
-        })
->>>>>>> 0536e51cafda9ab350aed3a0ee6fcf8ac3239914
     </script>
   ```
 
