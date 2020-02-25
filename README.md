@@ -1,5 +1,5 @@
 #
-## ESSE BIBLIOTÉCA É UTILIZADA PARA MANIPULAR IMAGENS ADICIONANDO EFEITOS E TEXT NA IMAGEM
+## ESSE BIBLIOTÉCA É UTILIZADA PARA MANIPULAR IMAGENS ADICIONANDO EFEITOS E TEXTO NA IMAGEM
   ESSA BIBLIOTECA AINDA ESTA NA VERSÃO BETA 0.0.1, AINDA NÃO POSSUI MUITAS FUNÇÕES
 
 ## FUNÇÕES DA BIBLIOTÉCA
@@ -9,8 +9,13 @@
 
 ### addImage - ADICIONAR UMA IMAGEM NO CANVAS
   ESSA FUNÇÃO ADICIONARA A IMAGEM NA TELA
+<<<<<<< HEAD
 
   PARAMETROS DA FUNÇÃO
+=======
+  
+  ###### PARAMETROS DA FUNÇÃO
+>>>>>>> 0536e51cafda9ab350aed3a0ee6fcf8ac3239914
   - canvas(String)
     AQUI FICARA O IDENTIFICADOR DO CANVAS, POR EXEMPLO '#myCanvas' ou '.myCanvas'
   - src(String)
@@ -35,23 +40,32 @@
         - text: Texto que seria impresso na imagem
 
 ### downloadImage
+<<<<<<< HEAD
     ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
     
     ESSE FUNÇÃO TEM APENAS UM PARAMETRO
     - imageName: Nome da imagem ao ser salva pelo usuario
+=======
+   ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
+   
+   ESSE FUNÇÃO TEM APENAS UM PARAMETRO
+   
+   - imageName: Nome da imagem ao ser salva pelo usuario
+>>>>>>> 0536e51cafda9ab350aed3a0ee6fcf8ac3239914
 
 ## EXEMPLO DE CÓDIGO
   ADICIONE UM HTML COM O SEGUINDO ELEMENTOS
   ```
     <canvas id="canvas-id"></canvas>
-    <a>
-        <button onclick="downloadImage('nome_do_arquivo')">Download</button>
+    <a id="download" download="">
+        <button onclick="download('banner de João');">Download</button>
     </a>
   ```
 
   AGORA NO SCRIPT DO SEU HTML ADICIONE O SEGUINTE
   ```
     <script>
+<<<<<<< HEAD
         addImage('#canvas','image.jpg',{
             contrast: 2,
             title: {
@@ -69,8 +83,15 @@
                 text:"PAU NELAS"
             }
         });
+=======
+        addImage('#canvas-id','image.jpg',{
+            title:'Hello'
+        },{
+            contrast: 2
+        })
+>>>>>>> 0536e51cafda9ab350aed3a0ee6fcf8ac3239914
     </script>
   ```
 
   ## ATENÇÃO
-  PARA QUE ESSA BIBLIOTECA FUNCIONE VOCÊ DEVE BAIXAR E UTILIZAR O **CAMANJS**
+  PARA QUE ESSA BIBLIOTECA FUNCIONE VOCÊ DEVE BAIXAR E UTILIZAR O [CamanJS](http://camanjs.com/)

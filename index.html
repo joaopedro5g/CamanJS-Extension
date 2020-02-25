@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" text="text/css" href="style.css" />
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <a id="download" download="triangle.png">
+        <button onclick="download('banner de João');">Download Image</button>
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.0.0/caman.full.min.js"></script>
+    <script src="./app.js"></script>
+    <script>
+        addImage('#canvas','image.jpg',{
+            contrast: 2,
+            title: {
+                positionX: 200,
+                positionY: 100,
+                fontSize: 50,
+                fontFamily: 'Georgia',
+                text: "HEHE BOY"
+            },
+            subtitle: {
+                fontSize: 30,
+                positionX: 300,
+                positionY: 200,
+                fontFamily: 'Georgia',
+                text:"PAU NELAS"
+            }
+        });
+    </script>
+</body>
+</html>
