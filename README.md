@@ -37,9 +37,9 @@
         - text: Texto que seria impresso na imagem
 
 ### downloadImage
-    ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
+   ESSA FUNÇÃO ELA EXECUTARA A OPÇÃO DE DOWNLOAD DA IMAGEM EDITADA
     
-    ESSE FUNÇÃO TEM APENAS UM PARAMETRO
+   ESSE FUNÇÃO TEM APENAS UM PARAMETRO
     - imageName: Nome da imagem ao ser salva pelo usuario
 
 
