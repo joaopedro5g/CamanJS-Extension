@@ -62,14 +62,14 @@
                 positionY: 100,
                 fontSize: 50,
                 fontFamily: 'Georgia',
-                text: "HEHE BOY"
+                text: "Hello world"
             },
             subtitle: {
                 fontSize: 30,
                 positionX: 300,
                 positionY: 200,
                 fontFamily: 'Georgia',
-                text:"PAU NELAS"
+                text:"Hi, my name is João Pedro"
             }
         });
     </script>
