@@ -55,7 +55,7 @@
   AGORA NO SCRIPT DO SEU HTML ADICIONE O SEGUINTE
   ```
     <script>
-        addImage('#canvas','image.jpg',{
+        addImage('#canvas-id','image.jpg',{
             contrast: 2,
             title: {
                 positionX: 200,
